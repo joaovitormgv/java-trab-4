@@ -1,6 +1,6 @@
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import javax.swing.*;
 
 public class SimpleAWT extends Frame {
     private Label messageLabel = new Label();
@@ -19,7 +19,7 @@ public class SimpleAWT extends Frame {
         JPasswordField input2 = new JPasswordField(20);
 
         Button cancelar = new Button("Cancelar");
-	    Button enviar = new Button("Enviar");
+	    Button enviar = new Button("Login");
 
         messageLabel = new Label("");
         messageLabel.setForeground(Color.RED);
